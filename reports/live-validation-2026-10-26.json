@@ -1,0 +1,24 @@
+{
+  "tool": "aiax-validate-livastic-vm1@0.1.0",
+  "scope": "read-only validation of publicly accessible AIAX v0.1 manifests and their section endpoints",
+  "sites": {
+    "https://lax.kognai.ai": {
+      "checkedAtUTC": "2026-10-26T11:52:49.131377+00:00",
+      "ok": true,
+      "score": 100,
+      "sectionsChecked": 5,
+      "errorCount": 0,
+      "warningCount": 0,
+      "manifestURL": "https://lax.kognai.ai/.well-known/aiax.json"
+    },
+    "https://www.kognai.ai": {
+      "checkedAtUTC": "2026-10-26T11:52:49.131503+00:00",
+      "ok": true,
+      "score": 100,
+      "sectionsChecked": 6,
+      "errorCount": 0,
+      "warningCount": 0,
+      "manifestURL": "https://www.kognai.ai/.well-known/aiax.json"
+    }
+  }
+}

@@ -18,6 +18,7 @@
     "schemas/",
     "README.md",
     "LICENSE",
+    "SCHEMA-ATTRIBUTION.md",
     "fixtures/"
   ],
   "scripts": {
