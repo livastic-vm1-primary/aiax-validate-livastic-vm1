@@ -1,0 +1,1 @@
+{"aiax_version":"0.1","section_id":"hello","purpose":"A valid test section","inputs":"No input","outputs":{"type":"object"},"pricing":{"model":"free","amount":"0","currency":"USDC","rail":"x402"},"examples":[{"description":"A valid example","request":{},"response":{"ok":true}}],"pact_mandate_template":null}

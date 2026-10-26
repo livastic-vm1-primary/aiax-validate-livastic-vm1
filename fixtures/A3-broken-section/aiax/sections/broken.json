@@ -1,0 +1,1 @@
+{"aiax_version":"0.1","section_id":"different_id","purpose":"Broken section","inputs":"any","outputs":"some output","pricing":{"model":"free","amount":"lots","currency":"USDC","rail":"x402","extra":"unexpected"},"examples":[],"pact_mandate_template":null}

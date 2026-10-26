@@ -1,0 +1,40 @@
+{
+  "name": "aiax-validate-livastic-vm1",
+  "version": "0.1.0",
+  "description": "Offline-capable AIAX manifest and capability-section validator with clear JSON-pointer errors and 0\u2013100 score.",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "bin": {
+    "aiax-validate": "./bin/aiax-validate.js"
+  },
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "files": [
+    "bin/",
+    "src/",
+    "schemas/",
+    "README.md",
+    "LICENSE",
+    "fixtures/"
+  ],
+  "scripts": {
+    "test": "node --test",
+    "test:offline": "node --test"
+  },
+  "keywords": [
+    "AIAX",
+    "agent",
+    "JSON Schema",
+    "validation",
+    "x402"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "ajv": "^8.17.1",
+    "ajv-formats": "^3.0.1"
+  },
+  "devDependencies": {}
+}
